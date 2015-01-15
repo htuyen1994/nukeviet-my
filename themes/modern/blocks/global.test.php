@@ -2,7 +2,7 @@
 
 function global_test() {
 
-	$xtpl = new XTemplate('global.test.tpl', NV_ROOTDIR . '/themes/default/blocks');
+	$xtpl = new XTemplate('global.test.tpl', NV_ROOTDIR . '/themes/modern/blocks');
 	$data = array();
 	
 
