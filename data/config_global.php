@@ -5,7 +5,7 @@
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @Copyright (C) 2015 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Wed, 14 Jan 2015 04:41:35 GMT
+ * @Createdate Thu, 15 Jan 2015 08:27:35 GMT
  */
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
@@ -92,7 +92,7 @@ $global_config['nv_unick_type']=4;
 $global_config['nv_upass_type']=0;
 $global_config['openid_mode']=1;
 $global_config['openid_servers']=array('yahoo','google');
-$global_config['optActive']=1;
+$global_config['optActive']=0;
 $global_config['proxy_blocker']=0;
 $global_config['read_type']=0;
 $global_config['rewrite_endurl']='/';
@@ -106,7 +106,7 @@ $global_config['site_phone']='';
 $global_config['site_timezone']='byCountry';
 $global_config['spadmin_add_admin']=1;
 $global_config['str_referer_blocker']=0;
-$global_config['timestamp']=1;
+$global_config['timestamp']=2;
 $global_config['upload_alt_require']=1;
 $global_config['upload_auto_alt']=1;
 $global_config['upload_checking_mode']='strong';
