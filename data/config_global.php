@@ -5,7 +5,7 @@
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @Copyright (C) 2015 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Thu, 15 Jan 2015 08:27:35 GMT
+ * @Createdate Mon, 19 Jan 2015 03:15:48 GMT
  */
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
@@ -31,7 +31,7 @@ define('NV_UNICKMIN', 4);
 define('NV_UPASSMAX', 20);
 define('NV_UPASSMIN', 5);
 define('NV_EOL', "\r\n");
-define('NV_UPLOAD_MAX_FILESIZE', 134217728);
+define('NV_UPLOAD_MAX_FILESIZE', 2097152);
 define('NV_OPENID_ALLOWED', true);
 
 $openid_servers=array('google'=>array('identity'=>'https://www.google.com/accounts/o8/id', 'required'=>array('email'=>'contact/email', 'firstname'=>'namePerson/first', 'lastname'=>'namePerson/last', 'gender'=>'person/gender')), 'yahoo'=>array('identity'=>'https://me.yahoo.com', 'required'=>array('email'=>'contact/email', 'nickname'=>'namePerson/friendly', 'fullname'=>'namePerson', 'gender'=>'person/gender')));
@@ -53,9 +53,9 @@ $global_config['block_admin_ip']=0;
 $global_config['captcha_type']=0;
 $global_config['cdn_url']='';
 $global_config['cookie_httponly']=1;
-$global_config['cookie_prefix']='nv3c_Sn1tj';
+$global_config['cookie_prefix']='nv3c_O0guh';
 $global_config['cookie_secure']=0;
-$global_config['display_errors_list']=30719;
+$global_config['display_errors_list']=32767;
 $global_config['dump_autobackup']=1;
 $global_config['dump_backup_day']=30;
 $global_config['dump_backup_ext']='gz';
@@ -71,7 +71,7 @@ $global_config['ftp_path']='/';
 $global_config['ftp_port']=21;
 $global_config['ftp_server']='localhost';
 $global_config['ftp_user_name']='';
-$global_config['ftp_user_pass']='pnaPgP07mZGuW3IkQ5nrSqZ2j4D9O5mRrltyJEOZ60o,';
+$global_config['ftp_user_pass']='jaZeQj6wBZzo29-lck1yO42mXkI-sAWc6NvfpXJNcjs,';
 $global_config['gfx_chk']=3;
 $global_config['gzip_method']=1;
 $global_config['is_flood_blocker']=1;
@@ -87,7 +87,7 @@ $global_config['mudim_showpanel']=1;
 $global_config['my_domains']='localhost';
 $global_config['nv_auto_resize']=1;
 $global_config['nv_display_errors_list']=1;
-$global_config['nv_max_size']=134217728;
+$global_config['nv_max_size']=2097152;
 $global_config['nv_unick_type']=4;
 $global_config['nv_upass_type']=0;
 $global_config['openid_mode']=1;
@@ -99,17 +99,17 @@ $global_config['rewrite_endurl']='/';
 $global_config['rewrite_exturl']='.html';
 $global_config['rewrite_optional']=1;
 $global_config['rewrite_op_mod']='news';
-$global_config['session_prefix']='nv3s_Bkrqej';
+$global_config['session_prefix']='nv3s_Dgglgw';
 $global_config['site_keywords']='NukeViet, portal, mysql, php';
 $global_config['site_lang']='vi';
 $global_config['site_phone']='';
 $global_config['site_timezone']='byCountry';
 $global_config['spadmin_add_admin']=1;
 $global_config['str_referer_blocker']=0;
-$global_config['timestamp']=2;
+$global_config['timestamp']=5;
 $global_config['upload_alt_require']=1;
 $global_config['upload_auto_alt']=1;
-$global_config['upload_checking_mode']='strong';
+$global_config['upload_checking_mode']='mild';
 $global_config['useactivate']=2;
 $global_config['version']='4.0.10';
 $global_config['whoviewuser']=2;
