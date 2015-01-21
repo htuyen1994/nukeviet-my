@@ -5,7 +5,7 @@
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @Copyright (C) 2015 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Mon, 19 Jan 2015 03:15:48 GMT
+ * @Createdate Wed, 21 Jan 2015 02:28:54 GMT
  */
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
@@ -31,7 +31,7 @@ define('NV_UNICKMIN', 4);
 define('NV_UPASSMAX', 20);
 define('NV_UPASSMIN', 5);
 define('NV_EOL', "\r\n");
-define('NV_UPLOAD_MAX_FILESIZE', 2097152);
+define('NV_UPLOAD_MAX_FILESIZE', 10485760);
 define('NV_OPENID_ALLOWED', true);
 
 $openid_servers=array('google'=>array('identity'=>'https://www.google.com/accounts/o8/id', 'required'=>array('email'=>'contact/email', 'firstname'=>'namePerson/first', 'lastname'=>'namePerson/last', 'gender'=>'person/gender')), 'yahoo'=>array('identity'=>'https://me.yahoo.com', 'required'=>array('email'=>'contact/email', 'nickname'=>'namePerson/friendly', 'fullname'=>'namePerson', 'gender'=>'person/gender')));
@@ -87,7 +87,7 @@ $global_config['mudim_showpanel']=1;
 $global_config['my_domains']='localhost';
 $global_config['nv_auto_resize']=1;
 $global_config['nv_display_errors_list']=1;
-$global_config['nv_max_size']=2097152;
+$global_config['nv_max_size']=10485760;
 $global_config['nv_unick_type']=4;
 $global_config['nv_upass_type']=0;
 $global_config['openid_mode']=1;
@@ -106,7 +106,7 @@ $global_config['site_phone']='';
 $global_config['site_timezone']='byCountry';
 $global_config['spadmin_add_admin']=1;
 $global_config['str_referer_blocker']=0;
-$global_config['timestamp']=5;
+$global_config['timestamp']=6;
 $global_config['upload_alt_require']=1;
 $global_config['upload_auto_alt']=1;
 $global_config['upload_checking_mode']='mild';
